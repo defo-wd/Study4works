@@ -1,0 +1,9 @@
+services:
+  php:
+    build:
+      context: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - ../PHP:/var/www/html
+    working_dir: /var/www/html
