@@ -20,3 +20,4 @@ if ($number > 0) {
 } else {
     echo "ゼロ";
 }
+?>
